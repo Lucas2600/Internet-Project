@@ -12,6 +12,12 @@
     display: block;
   	width: 100%;
 }
+.Car {
+    padding: left;
+    width:  50%;
+    height: 50%;
+
+}
 
 h1 {
   text-shadow: 0 1px 0 black,
