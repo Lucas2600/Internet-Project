@@ -10,7 +10,7 @@
 
 .center {
     display: block;
-  	width:1340px;
+  	width: 100%;
 }
 
 h1 {
@@ -145,4 +145,8 @@ height:50px;
 margin-left:-85px;
 margin-top:500px;
 
+}
+
+title{
+    display: block;
 }
