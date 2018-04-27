@@ -1,0 +1,168 @@
+/*-------------------------- START --------------------------*/
+
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.banner {
+    display: block;
+  	width: 100%;
+}
+.Car {
+    padding: left;
+    width:  50%;
+    height: 50%;
+
+}
+
+h1 {
+  text-shadow: 0 1px 0 black,
+               0 2px 0 #3f2a14,
+               0 3px 0 #D2B48C,
+               0 4px 0 #D2B48C,
+               0 5px 0 black,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,1.25),
+               0 10px 10px rgba(0,0,0,3.2),
+               0 20px 20px rgba(0,0,0,.15);
+			   font-size: 75px;
+			   color: #8B4513;
+}				
+
+
+/*----------------------Navigation-----------------------*/
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+	
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+	  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+	  display: inline-block;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: gary;
+    color: blue;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	font-family:"Arial",sans-serif;
+	font-size:14px;
+	color:#fff;
+	background: black;
+}
+
+.footer {
+   width: 100%;
+   color: white;
+   text-align: center;
+   clear: both;
+   position: relative; 
+   z-index: 1; 
+   height: -3em; 
+   margin-top: 0em;
+   background-color: blue;
+-webkit-box-shadow: 5px 5px 19px 4px rgba(0,0,0,0.4); 
+box-shadow: 5px 5px 19px 4px rgba(0,0,0,0.4);
+  font-family: "Arial Black", Gadget, sans-serif;
+
+
+}
+.footer td, .footer th {
+  padding: 5px 1px;
+}
